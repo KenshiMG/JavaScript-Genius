@@ -1,0 +1,44 @@
+/*ALTERANDO A COR DO FUNDO*/
+body 
+{
+	background-color: #333333;
+}
+
+.grid-container
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.grid-item:active
+{
+	transform: translateY(4px);
+}
+
+.grid-item
+{
+	background-color: white;
+	padding: 40px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#btnStart
+{
+	width: 100px;
+	height: 50px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 2px;
+	border-radius: 8px;
+	background-color: #4CAF50;
+}
+
+#btnStart:active
+{
+	transform: translateY(4px);
+}
